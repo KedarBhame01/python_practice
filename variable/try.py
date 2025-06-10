@@ -1,0 +1,2 @@
+str = "Kedar"
+print(str)
