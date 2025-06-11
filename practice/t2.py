@@ -23,3 +23,7 @@ print("a % b = ",a % b)
 print(" ",not True)
 x = "a"
 print(type(x))
+
+print("a = ",a)
+print("++a = ",++a)
+print("--a = ",--a)
