@@ -5,7 +5,7 @@ class Student:
 
     def get_avg(self):
         sum = 0
-        i = 0
+    
         for val in self.marks:
             sum += val
             i +=1
