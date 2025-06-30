@@ -1,2 +1,0 @@
-str = "Kedar"
-print(str)

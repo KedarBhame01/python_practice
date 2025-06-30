@@ -1,10 +1,14 @@
-list = [1,2,3,2,1]
-# list = [1,"Kedar","a","b","Kedar",1]
-list2 = list.copy()
-print("list = ", list)
-print("list2 = ", list2)
-list2.reverse()
-if(list == list2):
-    print("palindrome")
-else:
-    print("not palindrome")
+x = [1,2]
+x_copy = x
+print("Before changing x -")
+print("x = ",x)
+print("x = ",id(x))
+print("x = ",x_copy)
+print("x = ",id(x_copy))
+# x = x + [3,4]
+x += [3,4]
+print("After changing x -")
+print("x = ",x)
+print("x = ",id(x))
+print("x = ",x_copy)
+print("x = ",id(x_copy))
